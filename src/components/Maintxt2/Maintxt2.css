@@ -1,0 +1,47 @@
+.maintxt2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px 0 24px; 
+    position: relative;
+    top: -30px;
+}
+
+.border2{
+    height: 2px;
+    width: 85%;
+    background-color: gray;
+    margin: 0 auto;
+    position: relative;
+    top: -16px;
+    opacity: 0.5;
+}
+
+.maintxt2 h2{
+    color: #1E1F36;
+    font-size: 13px;
+    font-family: Kumbh Sans;
+    font-weight: 700;
+    word-wrap: break-word;   
+}
+
+.maintxt2 img{
+    cursor: pointer;
+    width: 13px;
+}
+
+.hiddenp2{
+    position: relative;
+    top: -25px;
+    left: 23px;
+}
+
+p{
+    color: #787887;
+    font-size: 12px;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+    width: 270px;
+}
