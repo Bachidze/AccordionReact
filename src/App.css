@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width: 327px;
+    height: 535px;
+    background-color: #fff;
+    border-radius: 25px;
+}
+
+h4{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    cursor: pointer;
+}
