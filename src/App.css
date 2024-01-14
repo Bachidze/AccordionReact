@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;700&display=swap');
 body{
     background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    font-family: Kumbh sans;
 }
 .container{
     width: 327px;
@@ -23,4 +25,42 @@ h4{
 
 img{
     cursor: pointer;
+    padding-right: 10px;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    color: #1E1F36;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: -160px; 
+}
+
+h4{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4B4C5F;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #787887;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.img1{
+    position: relative;
+    top: -95px;
+    left: 20px;
+}
+.img2{
+    position: relative;
+    top: -195px;
+    left: 50px;
+}
+
